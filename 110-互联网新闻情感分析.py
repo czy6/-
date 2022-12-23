@@ -93,4 +93,4 @@ def write_preds(ID, fname):
     pd.DataFrame({"PhraseId": ID, "Sentiment": y}).to_csv(fname, index=False, header=True)
 
 
-write_preds(ID, "CCF-LSTMkeras.csv")
+write_preds(ID, "sub_svm_baseline.csv")
